@@ -47,6 +47,10 @@ npm run test:ui
 2. LocalStorage 접근 시 SSR 환경 체크 (`typeof window === 'undefined'`) 필수
 3. 메모 ID 생성은 uuid v4만 사용
 4. TypeScript strict mode 위반 금지
+5. 보안 위험이 있는 파일은 읽기·수정 금지 (Bash/PowerShell 등 셸 명령으로 우회하는 것도 금지)
+   - 대상: `.env`, `.env.*` (`.env.local` 포함), 이름에 `secret` 또는 `credential`이 들어간 파일, `*.pem`, `*.key`, `~/.ssh/**`, `~/.aws/**`
+   - `.claude/settings.json`의 `permissions.deny`에 동일한 규칙이 설정되어 있으며, 사용자가 명시적으로 해제하기 전에는 이 규칙을 임의로 수정·우회하지 않는다
+   - 이 파일들의 내용이 필요하면 사용자에게 필요한 항목(키 이름 등)을 직접 물어본다
 
 ### Do's (권장 사항)
 

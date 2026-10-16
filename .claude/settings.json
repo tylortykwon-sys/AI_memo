@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/*secret*)",
+      "Read(**/*credential*)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Edit(**/.env)",
+      "Edit(**/.env.*)",
+      "Edit(**/*secret*)",
+      "Edit(**/*credential*)",
+      "Edit(**/*.pem)",
+      "Edit(**/*.key)",
+      "Edit(~/.ssh/**)",
+      "Edit(~/.aws/**)",
+      "Bash(*.env*)",
+      "Bash(*secret*)",
+      "Bash(*credential*)",
+      "PowerShell(*.env*)",
+      "PowerShell(*secret*)",
+      "PowerShell(*credential*)",
+      "Bash(rm -rf *)",
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "Bash(git reset --hard *)"
+    ]
+  }
+}
