@@ -1,0 +1,141 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - banner [ref=f8e3]:
+      - generic [ref=f8e5]:
+        - heading "📝 메모 앱" [level=1] [ref=f8e8]
+        - button "새 메모" [ref=f8e10]
+    - main [ref=f8e13]:
+      - generic [ref=f8e14]:
+        - generic [ref=f8e15]:
+          - generic [ref=f8e16]:
+            - textbox "메모 검색..." [ref=f8e19]
+            - combobox [ref=f8e21]:
+              - option "전체 카테고리" [selected]
+              - option "개인 (2)"
+              - option "업무 (1)"
+              - option "학습 (1)"
+              - option "아이디어 (2)"
+              - option "기타 (0)"
+          - generic [ref=f8e22]: 총 6개의 메모
+        - generic [ref=f8e25]:
+          - button "프로젝트 회의 준비 상세 보기" [active] [ref=f8e26] [cursor=pointer]:
+            - generic [ref=f8e27]:
+              - generic [ref=f8e28]:
+                - heading "프로젝트 회의 준비" [level=3] [ref=f8e29]
+                - generic [ref=f8e30]:
+                  - generic [ref=f8e31]: 업무
+                  - generic [ref=f8e32]: 2026년 10월 14일 오후 01:30
+              - generic [ref=f8e33]:
+                - button "편집" [ref=f8e34]
+                - button "삭제" [ref=f8e37]
+            - paragraph [ref=f8e41]: "다음 주 월요일 오전 10시 프로젝트 킥오프 미팅을 위한 준비사항: - 프로젝트 범위 정의서 작성 - 팀원별 역할 분담 - 일정 계획 수립 - 필요한 리소스 정리"
+            - generic [ref=f8e42]:
+              - generic [ref=f8e43]: "#회의"
+              - generic [ref=f8e44]: "#프로젝트"
+              - generic [ref=f8e45]: "#준비"
+          - button "React 18 새로운 기능 학습 상세 보기" [ref=f8e46] [cursor=pointer]:
+            - generic [ref=f8e47]:
+              - generic [ref=f8e48]:
+                - heading "React 18 새로운 기능 학습" [level=3] [ref=f8e49]
+                - generic [ref=f8e50]:
+                  - generic [ref=f8e51]: 학습
+                  - generic [ref=f8e52]: 2026년 10월 15일 오후 01:30
+              - generic [ref=f8e53]:
+                - button "편집" [ref=f8e54]
+                - button "삭제" [ref=f8e57]
+            - paragraph [ref=f8e61]: "React 18에서 새로 추가된 기능들을 학습해야 함: 1. Concurrent Features 2. Automatic Batching 3. Suspense 개선사항 4. useId Hook 5. useDeferredValue Hook 이번 주말에 공식 문서를 읽고 간단한 예제를 만들어보자."
+            - generic [ref=f8e62]:
+              - generic [ref=f8e63]: "#React"
+              - generic [ref=f8e64]: "#학습"
+              - generic [ref=f8e65]: "#개발"
+          - 'button "새로운 앱 아이디어: 습관 트래커 상세 보기" [ref=f8e66] [cursor=pointer]':
+            - generic [ref=f8e67]:
+              - generic [ref=f8e68]:
+                - 'heading "새로운 앱 아이디어: 습관 트래커" [level=3] [ref=f8e69]'
+                - generic [ref=f8e70]:
+                  - generic [ref=f8e71]: 아이디어
+                  - generic [ref=f8e72]: 2026년 10월 13일 오후 01:30
+              - generic [ref=f8e73]:
+                - button "편집" [ref=f8e74]
+                - button "삭제" [ref=f8e77]
+            - paragraph [ref=f8e81]: "매일 실천하고 싶은 습관들을 관리할 수 있는 앱: 핵심 기능: - 습관 등록 및 관리 - 일일 체크인 - 진행 상황 시각화 - 목표 달성 알림 - 통계 분석 기술 스택: React Native + Supabase 출시 목표: 3개월 후"
+            - generic [ref=f8e82]:
+              - generic [ref=f8e83]: "#앱개발"
+              - generic [ref=f8e84]: "#습관"
+              - generic [ref=f8e85]: "#React Native"
+          - button "주말 여행 계획 상세 보기" [ref=f8e86] [cursor=pointer]:
+            - generic [ref=f8e87]:
+              - generic [ref=f8e88]:
+                - heading "주말 여행 계획" [level=3] [ref=f8e89]
+                - generic [ref=f8e90]:
+                  - generic [ref=f8e91]: 개인
+                  - generic [ref=f8e92]: 2026년 10월 8일 오후 01:30
+              - generic [ref=f8e93]:
+                - button "편집" [ref=f8e94]
+                - button "삭제" [ref=f8e97]
+            - paragraph [ref=f8e101]: "이번 주말 제주도 여행 계획: 토요일: - 오전: 한라산 등반 - 오후: 성산일출봉 관광 - 저녁: 흑돼지 맛집 방문 일요일: - 오전: 우도 관광 - 오후: 쇼핑 및 기념품 구매 - 저녁: 공항 이동 준비물: 등산화, 카메라, 선크림"
+            - generic [ref=f8e102]:
+              - generic [ref=f8e103]: "#여행"
+              - generic [ref=f8e104]: "#제주도"
+              - generic [ref=f8e105]: "#주말"
+          - button "독서 목록 상세 보기" [ref=f8e106] [cursor=pointer]:
+            - generic [ref=f8e107]:
+              - generic [ref=f8e108]:
+                - heading "독서 목록" [level=3] [ref=f8e109]
+                - generic [ref=f8e110]:
+                  - generic [ref=f8e111]: 개인
+                  - generic [ref=f8e112]: 2026년 10월 1일 오후 01:30
+              - generic [ref=f8e113]:
+                - button "편집" [ref=f8e114]
+                - button "삭제" [ref=f8e117]
+            - paragraph [ref=f8e121]: "올해 읽고 싶은 책들: 개발 관련: - 클린 코드 (로버트 C. 마틴) - 리팩토링 2판 (마틴 파울러) - 시스템 디자인 인터뷰 (알렉스 쉬) 자기계발: - 아토믹 해빗 (제임스 클리어) - 데일 카네기 인간관계론 소설: - 82년생 김지영 (조남주) - 미드나잇 라이브러리 (매트 헤이그)"
+            - generic [ref=f8e122]:
+              - generic [ref=f8e123]: "#독서"
+              - generic [ref=f8e124]: "#책"
+              - generic [ref=f8e125]: "#자기계발"
+          - button "성능 최적화 아이디어 상세 보기" [ref=f8e126] [cursor=pointer]:
+            - generic [ref=f8e127]:
+              - generic [ref=f8e128]:
+                - heading "성능 최적화 아이디어" [level=3] [ref=f8e129]
+                - generic [ref=f8e130]:
+                  - generic [ref=f8e131]: 아이디어
+                  - generic [ref=f8e132]: 2026년 10월 4일 오후 01:30
+              - generic [ref=f8e133]:
+                - button "편집" [ref=f8e134]
+                - button "삭제" [ref=f8e137]
+            - paragraph [ref=f8e141]: "웹 애플리케이션 성능 최적화 방법들: 프론트엔드: - 이미지 최적화 (WebP, lazy loading) - 코드 스플리팅 - 번들 크기 최적화 - 캐싱 전략 백엔드: - 데이터베이스 쿼리 최적화 - CDN 활용 - 서버 사이드 렌더링 - API 응답 캐싱 모니터링: - Core Web Vitals 측정 - 성능 예산 설정"
+            - generic [ref=f8e142]:
+              - generic [ref=f8e143]: "#성능"
+              - generic [ref=f8e144]: "#최적화"
+              - generic [ref=f8e145]: "#웹개발"
+    - dialog [ref=f8e157]:
+      - generic [ref=f8e158]:
+        - generic [ref=f8e159]:
+          - generic [ref=f8e160]:
+            - heading "프로젝트 회의 준비" [level=2] [ref=f8e161]
+            - generic [ref=f8e162]:
+              - generic [ref=f8e163]: 업무
+              - generic [ref=f8e164]: "수정: 2026년 10월 14일 오후 01:30"
+              - generic [ref=f8e165]: "작성: 2026년 10월 14일 오후 01:30"
+          - button "닫기" [ref=f8e166]
+        - region "AI 요약" [ref=f8e169]:
+          - generic [ref=f8e170]:
+            - heading "✨ AI 요약" [level=3] [ref=f8e171]
+            - button "요약하기" [ref=f8e172]
+          - paragraph [ref=f8e173]: 아직 요약이 없습니다. 버튼을 눌러 AI 요약을 만들어 보세요.
+        - generic [ref=f8e175]:
+          - paragraph [ref=f8e176]: "다음 주 월요일 오전 10시 프로젝트 킥오프 미팅을 위한 준비사항:"
+          - list [ref=f8e177]:
+            - listitem [ref=f8e178]: 프로젝트 범위 정의서 작성
+            - listitem [ref=f8e179]: 팀원별 역할 분담
+            - listitem [ref=f8e180]: 일정 계획 수립
+            - listitem [ref=f8e181]: 필요한 리소스 정리
+        - generic [ref=f8e182]:
+          - generic [ref=f8e183]: "#회의"
+          - generic [ref=f8e184]: "#프로젝트"
+          - generic [ref=f8e185]: "#준비"
+        - generic [ref=f8e186]:
+          - button "삭제" [ref=f8e187]
+          - button "편집" [ref=f8e188]
+  - button "Open Next.js Dev Tools" [ref=f8e151] [cursor=pointer]
+  - alert [ref=f8e155]
